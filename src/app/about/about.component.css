@@ -1,0 +1,17 @@
+.aboutPage {
+    text-align: center;
+}
+
+.aboutSection {
+    display: inline-block;
+    margin: 5em 20em 5em;
+}
+
+.profilePhoto {
+    border-radius: 50%;
+    height: 10em;
+}
+
+form {
+    margin: auto;
+}
