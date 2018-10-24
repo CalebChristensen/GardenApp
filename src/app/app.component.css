@@ -12,10 +12,20 @@
 
 .btn1 {
   margin: 10px;
+  border-radius: 30%;
+  /* background-color: white;
+  border-color: whitesmoke; */
+  border: 1px solid whitesmoke;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px black;
+  color: black;
+  background-color: white;
 }
-.btn2 {
-  margin: 10px;
+
+button:hover {
+  box-shadow: 0 4px 16px black;
 }
-.btn3 {
+
+.social {
   margin: 10px;
 }
