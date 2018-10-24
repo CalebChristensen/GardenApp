@@ -1,0 +1,52 @@
+.jumbo {
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  border-radius: 5%;
+  height:200px;
+  right: 36%;
+  top: 3%;
+}
+
+.bottomHome {
+  background-image: "https://stmed.net/sites/default/files/white-wallpapers-25354-2505529.jpg";
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: black;
+}
+.pLeft {
+  grid-column: 1;
+  color:black;
+}
+.iCenter {
+  grid-column: 2;
+  border-radius: 50%;
+  height:400px;
+  width: 100%;
+}
+.pRight {
+  grid-column: 3;
+  color: black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
