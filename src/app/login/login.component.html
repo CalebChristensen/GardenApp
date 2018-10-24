@@ -1,0 +1,26 @@
+<div>
+    <form [formGroup]="loginForm" >
+        <h3>Admin Login</h3>
+        <div>
+            <label for="email">Email</label>
+            <input 
+                type="email" 
+                id="email"
+                formControlName="email"
+                class="form-control"
+                placeholder="Enter email address"
+            />
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input 
+                type="password"
+                id="password"
+                formControlName="password"
+                class="form-control"
+                placeholder="Password"
+            />
+        </div>
+        <button type="submit" class="submitBtn" (click)="Login()">Login</button>
+    </form>
+</div>
