@@ -1,0 +1,21 @@
+.logoNav {
+  top: 0px;
+  z-index: 1;
+  height:30px;
+  right: 36%;
+  top: 8%;
+}
+
+.navBtn {
+  float: right;
+}
+
+.btn1 {
+  margin: 10px;
+}
+.btn2 {
+  margin: 10px;
+}
+.btn3 {
+  margin: 10px;
+}
