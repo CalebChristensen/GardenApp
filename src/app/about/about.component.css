@@ -12,6 +12,31 @@
     height: 10em;
 }
 
+.tom {
+  height: 200px;
+  border-radius: 30%;
+}
+
 form {
     margin: auto;
+}
+
+textarea {
+  width: 30vw;
+}
+
+input {
+  width: 20vw;
+}
+
+.btn2 {
+  margin: 10px;
+  border-radius: 30%;
+  /* background-color: white;
+  border-color: whitesmoke; */
+  border: 1px solid whitesmoke;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px black;
+  color: black;
+  background-color: white;
 }
