@@ -1,0 +1,12 @@
+<h1>Our Products</h1>
+<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum finibus ipsum, quis vehicula nulla. Morbi nisl massa, feugiat sit amet ante at, viverra ornare ligula. Aliquam erat volutpat. Duis dictum lectus lacus, id hendrerit mi pulvinar in</h3>
+
+<ul *ngIf='products'>
+    <div class='container'>
+        <li *ngFor='let product of products'>
+            <p>{{ product.product_name }}</p>
+            <p>{{ product.product_price }}</p>
+            <p>{{ product.product_description }}</p>
+        </li>
+    </div>
+</ul>
