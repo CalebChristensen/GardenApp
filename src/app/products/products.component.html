@@ -13,7 +13,9 @@
         <h3>{{ product.product_name }}</h3>
         <p>{{ product.product_price }}</p>
         <p>{{ product.product_description }}</p>
+        <div class="trash">
         <button (click)='delete(product.id)'><i class="fas fa-trash-alt"></i></button>
+      </div>
       </div>
     </div>
   </div>

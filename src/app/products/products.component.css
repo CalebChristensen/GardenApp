@@ -3,7 +3,7 @@
   border: 1px solid whitesmoke;
   transition: 0.3s;
   width: 250px;
-  height: 200px;
+  height: 225px;
   text-align: center;
   margin: 5px;
   float: left;
@@ -21,4 +21,8 @@
 .products {
   height:70vh;
   width: 100%;
+}
+
+.trash {
+  height: 10vh;
 }
