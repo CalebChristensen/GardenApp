@@ -37,6 +37,8 @@
   border-radius: 50%;
   height:400px;
   width: 100%;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 4px 20px black;
 }
 .pRight {
   grid-column: 3;
