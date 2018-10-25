@@ -11,4 +11,5 @@ export class DataService {
   getProducts() {
     return this.http.get('https://efa-gardenapp-backend.herokuapp.com/api/product')
   }
+
 }
