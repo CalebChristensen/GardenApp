@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
         user => {
           console.log(user)
         }
-      )
+      ) 
   }
 
 }

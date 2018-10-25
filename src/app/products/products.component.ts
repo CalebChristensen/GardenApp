@@ -7,7 +7,7 @@ import { DataService } from '../data.service'
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
-
+  token = sessionStorage.getItem("currentUser")
   products: Object
 
   constructor(private data: DataService) { }
