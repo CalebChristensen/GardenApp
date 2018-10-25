@@ -1,12 +1,19 @@
+<div style="text-align:center">
 <h1>Our Products</h1>
-<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum finibus ipsum, quis vehicula nulla. Morbi nisl massa, feugiat sit amet ante at, viverra ornare ligula. Aliquam erat volutpat. Duis dictum lectus lacus, id hendrerit mi pulvinar in</h3>
+<img class="products"src="https://cdn.shopify.com/s/files/1/1540/3933/files/TLP_GLM_B2C_Hmpg_Sldshw_2048x2048.jpg?v=1529677417">
+<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum finibus ipsum, quis vehicula nulla.
+  Morbi nisl massa, feugiat sit amet ante at, viverra ornare ligula. Aliquam erat volutpat. Duis dictum lectus lacus,
+  id hendrerit mi pulvinar in</h3>
+</div>
 
-<ul *ngIf='products'>
-    <div class='container'>
-        <li *ngFor='let product of products'>
-            <p>{{ product.product_name }}</p>
-            <p>{{ product.product_price }}</p>
-            <p>{{ product.product_description }}</p>
-        </li>
+<div *ngIf='products'>
+  <div *ngFor='let product of products'>
+    <div class="card">
+      <div class="cardContainer">
+        <h3>{{ product.product_name }}</h3>
+        <p>{{ product.product_price }}</p>
+        <p>{{ product.product_description }}</p>
+      </div>
     </div>
-</ul>
+  </div>
+</div>

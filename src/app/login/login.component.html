@@ -1,8 +1,9 @@
-<div>
+<div class="auth-container">
     <form [formGroup]="loginForm" >
         <h3>Admin Login</h3>
         <div>
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
+            <br />
             <input 
                 type="email" 
                 id="email"
@@ -11,8 +12,10 @@
                 placeholder="Enter email address"
             />
         </div>
+        <br />
         <div>
-            <label for="password">Password</label>
+            <label for="password">Password:</label>
+            <br />
             <input 
                 type="password"
                 id="password"
@@ -21,6 +24,9 @@
                 placeholder="Password"
             />
         </div>
-        <button type="submit" class="submitBtn" (click)="Login()">Login</button>
+        <br />
+        <button type="submit" class="btn1" (click)="Login()">Login</button>
     </form>
 </div>
+
+
