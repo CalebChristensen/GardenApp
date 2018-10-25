@@ -12,11 +12,15 @@
 .profilePhoto {
     border-radius: 50%;
     height: 10em;
+    border: 1px solid whitesmoke;
+  box-shadow: 2px 4px 20px black;
 }
 
 .tom {
   height: 200px;
   border-radius: 30%;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 4px 20px black;
 }
 
 form {
