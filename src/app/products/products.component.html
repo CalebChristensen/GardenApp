@@ -11,8 +11,8 @@
     <div class="card">
       <div class="cardContainer">
         <h3>{{ product.product_name }}</h3>
-        <p>{{ product.product_price }}</p>
-        <p>{{ product.product_description }}</p>
+        <p>Price: ${{ product.product_price }}</p>
+        <p>Product:<br />{{ product.product_description }}</p>
         <div class="trash">
         <button (click)='delete(product.id)' *ngIf="token"><i class="fas fa-trash-alt"></i></button>
       </div>
