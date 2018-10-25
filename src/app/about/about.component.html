@@ -1,49 +1,57 @@
-<div class="aboutPage">
-  <div class="aboutSection">
-    <img src="../../assets/tom.jpg" class="profilePhoto" />
-    <h2>Thomas McClellan</h2>
-    <h4>Founder of <strong>The Garden</strong> and Gardener Extraordinaire</h4>
-    <p>Welcome! I am so glad you are here. You might be wondering what first started my love of
-      gardening. Well, settle in, my friend, and let me tell you how it all began: </p>
-    <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado
-      daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach
-      carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin
-      onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot
-      carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke. </p>
-    <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea
-      prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane
-      fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify. </p>
-  </div>
+<body>
+  <div class="aboutPage">
+    <div class="aboutSection">
+      <img src="../../assets/tom.jpg" class="profilePhoto" />
+      <h2>Thomas McClellan</h2>
+      <h4>Founder of <strong>The Garden</strong> and Gardener Extraordinaire</h4>
+      <p>Welcome! I am so glad you are here. You might be wondering what first started my love of
+        gardening. Well, settle in, my friend, and let me tell you how it all began: </p>
+      <img class="tom" src="../../assets/obi-tom.jpg">
+      <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado
+        daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach
+        carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin
+        onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi
+        beetroot
+        carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke. </p>
+      <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea
+        prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettusce water chestnut eggplant winter purslane
+        fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify. </p>
+    </div>
 
-  <form action="https://formspree.io/hope.l.banks@gmail.com" method="POST">
-    <div class="control-group">
-      <div class="form-group">
-        <label>Name</label>
-        <input type="text" class="form-control" placeholder="Your Name" id="name" required
-          data-validation-required-message="Please enter your name" name="name">
-        <!-- <p class="help-block text-danger"></p> -->
+    <form action="https://formspree.io/hope.l.banks@gmail.com" method="POST">
+      <div class="control-group">
+        <div class="form-group">
+          <label>Name:</label>
+          <br />
+          <input style="text-align:center" type="text" class="form-control" placeholder="Your Name" id="name" required
+            data-validation-required-message="Please enter your name" name="name">
+          <!-- <p class="help-block text-danger"></p> -->
+        </div>
       </div>
-    </div>
-    <div class="control-group">
-      <div class="form-group">
-        <label>Email Address</label>
-        <input type="email" class="form-control" placeholder="Your Email" id="email" required
-          data-validation-required-message="Please enter your email" name="_replyto">
-        <!-- <p class="help-block text-danger"></p> -->
+      <br />
+      <div class="control-group">
+        <div class="form-group">
+          <label>Email Address:</label>
+          <br />
+          <input style="text-align:center" type="email" class="form-control" placeholder="Your Email" id="email"
+            required data-validation-required-message="Please enter your email" name="_replyto">
+          <!-- <p class="help-block text-danger"></p> -->
+        </div>
       </div>
-    </div>
-    <div class="control-group">
-      <div class="form-group">
-        <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-          data-validation-required-message="Please leave a message" name="message"></textarea>
-        <!-- <p class="help-block text-danger"></p> -->
+      <br />
+      <div class="control-group">
+        <div class="form-group">
+          <textarea style="text-align:center" class="form-control" rows="7" placeholder="Your Message" id="message"
+            required data-validation-required-message="Please leave a message" name="message"></textarea>
+          <!-- <p class="help-block text-danger"></p> -->
+        </div>
       </div>
-    </div>
-    <div class="text-center">
-      <div id="success"></div>
-      <button type="submit" class="btn btn-lg btn-black">
-        Contact Me
-      </button>
-    </div>
-  </form>
-</div>
+      <div class="text-center">
+        <div id="success"></div>
+        <button class="btn2" type="submit">
+          Contact Me
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
